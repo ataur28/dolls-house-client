@@ -10,12 +10,12 @@ const Gallery = () => {
         <div >
             <h2 className="text-4xl font-bold pt-8 text-center text-gray-600 mb-6">Galley</h2>
             <div className='lg:grid lg:grid-cols-3 gap-2 rounded-lg'>
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll1} />
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll2} />
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll3} />
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll4} />
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll5} />
-                <img className='p-5 hover:scale-125 transition ease-in-out duration-300' src={doll6} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll1} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll2} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll3} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll4} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll5} />
+                <img className='m-5 w-80 h-80 border-4 rounded-lg hover:scale-125 transition ease-in-out duration-300' src={doll6} />
 
             </div>
             <div className='text-center mt-8 mb-8'>
